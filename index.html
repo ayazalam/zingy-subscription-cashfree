@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <title>Zingy Subscription</title>
+</head>
+
+<body>
+
+  <section id="title">
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Zingy</span>
+      </div>
+    </nav>
+
+  </section>
+
+  <section id="form">
+
+
+    <h1>Zingy Subscription</h1>
+    <p>2,999Rs. Per Year</p>
+    <form action="/", method="POST">
+      <div class="mb-3">
+        <input type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email address" required autofocus>
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+      </div>
+      <div class="mb-3">
+        <input type="text" name="pNumber" class="form-control" placeholder="Enter 10 digit Phone Number" required>
+      </div>
+
+      <div class="mb-3">
+        <input type="text" name="sID" class="form-control" placeholder="Subscription ID" required>
+      </div>
+
+      <!-- <div class="mb-3">
+        <input type="text" name="pID" class="form-control" placeholder="Plan ID" required>
+      </div> -->
+      <!-- <div class="mb-3">
+        <input type="text" name="rURL" class="form-control" placeholder="Enter returnUrl" required>
+      </div> -->
+      <!-- <div class="mb-3">
+        <input type="text" name="pOption" class="form-control" placeholder="paymentOption" required>
+      </div> -->
+
+      <div class="mb-3">
+        <input type="text" name="cNumber" class="form-control" placeholder="Enter Card Number" required>
+      </div><div class="mb-3">
+        <input type="text" name="expiryM" class="form-control" placeholder="Enter Expiry Month" required>
+      </div><div class="mb-3">
+        <input type="text" name="expiryYYYY" class="form-control" placeholder="Enter Expiry Year" required>
+      </div><div class="mb-3">
+        <input type="text" name="cvv" class="form-control" placeholder="Enter CVV" required>
+      </div><div class="mb-3">
+        <input type="text" name="cardHolderName" class="form-control" placeholder="Enter Card Holder Name" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </section>
+
+  
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Gordita Regular';
+  src: url('font/Gordita Regular.woff');
+}
+
+@font-face {
+  font-family: 'Gordita Thin';
+  src: url('font/Gordita Thin.woff');
+}
+
+
+body {
+
+}
+
+.navbar-brand  {
+margin: 0 auto;
+}
+
+#form {
+  margin: 1rem 4rem;
+}
+
+.bigForNoReason {
+  font-size: 10rem;
+}
